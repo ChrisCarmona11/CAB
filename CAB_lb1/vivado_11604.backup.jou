@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Mar 12 17:49:28 2024
+# Process ID: 11604
+# Current directory: D:/Master/Para reordenar/CAB_lb1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6148 D:\Master\Para reordenar\CAB_lb1\CAB_lb1.xpr
+# Log file: D:/Master/Para reordenar/CAB_lb1/vivado.log
+# Journal file: D:/Master/Para reordenar/CAB_lb1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Master/Para reordenar/CAB_lb1/CAB_lb1.xpr}
+update_compile_order -fileset sources_1
+set_property board_part em.avnet.com:zed:part0:1.4 [current_project]
+reset_property board_connections [get_projects CAB_lb1]
+set_property target_language VHDL [current_project]
+set_property board_part em.avnet.com:zed:part0:1.4 [current_project]
+reset_property board_connections [get_projects CAB_lb1]
+save_project_as CAB_lab2 {D:/Master/Para reordenar/CAB_lab2} -force
+open_bd_design {D:/Master/Para reordenar/CAB_lab2/CAB_lab2.srcs/sources_1/bd/system/system.bd}
+run_ip_status
+report_ip_status
+set_property board_part em.avnet.com:zed:part0:1.4 [current_project]
+reset_property board_connections [get_projects CAB_lab2]
+set_property target_language Verilog [current_project]
+set_property board_part em.avnet.com:zed:part0:1.4 [current_project]
+reset_property board_connections [get_projects CAB_lab2]
